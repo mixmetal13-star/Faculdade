@@ -11,7 +11,8 @@ public class FuncionarioComissionado extends Funcionario {
 
     @Override
     public double calcularSalario() {
-        return valorVendas * (percentualComissao / 100);
+        double comissao = valorVendas * (percentualComissao / 100);
+        return SALARIO_BASE + comissao;
     }
 
     @Override

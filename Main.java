@@ -42,7 +42,6 @@ public class Main {
 
                     String nome2 = lerNome(sc);
                     int mat2 = lerMatricula(sc, funcionarios);
-
                     double vendas = lerDoublePositivo(sc, "Valor das vendas: ");
                     double comissao = lerDoublePositivo(sc, "Percentual de comissão: ");
 

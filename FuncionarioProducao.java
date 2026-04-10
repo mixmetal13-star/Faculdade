@@ -11,7 +11,8 @@ public class FuncionarioProducao extends Funcionario {
 
     @Override
     public double calcularSalario() {
-        return quantidadePecas * valorPeca;
+        double producao = quantidadePecas * valorPeca;
+        return SALARIO_BASE + producao;
     }
 
     @Override

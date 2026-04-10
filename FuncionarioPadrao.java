@@ -6,7 +6,7 @@ public class FuncionarioPadrao extends Funcionario {
 
     @Override
     public double calcularSalario() {
-        return 0;
+        return SALARIO_BASE;
     }
 
     @Override
